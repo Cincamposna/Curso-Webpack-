@@ -62,7 +62,7 @@ module.exports = {
 plugins: [
    new HtmlWebpackPlugin({
     inject: true,
-    template:'/Users/cindycn/Desktop/js-portfolio/public/index.html',
+    template:'./public/index.html',
     filename: './index.html',
     stats: { children: true }
    }),
